@@ -4,9 +4,9 @@
 worlds:
     #Properties for Scania 0
   - flag: 3
-    server_message: SjanderStory, speciaal voor sukkelnerdjes.
-    event_message: SjanderStory, speciaal voor sukkelnerdjes.
-    why_am_i_recommended: SjanderStory, om Sjander zn jaarlijkse MapleStory itch te temmen. Oja, en voor NX moet je gewoon doneren.
+    server_message: DevStory, Wilvert zijn developer speeltuin.
+    event_message: DevStory, Wilvert zijn developer speeltuin.
+    why_am_i_recommended: DevStory, Wilvert zijn developer speeltuin.
     channels: 3
     exp_rate: 10
     meso_rate: 10
@@ -160,7 +160,7 @@ worlds:
 
 server:
     #Database Configuration
-    DB_URL_FORMAT: "jdbc:mysql://%s:3306/cosmic" # If the docker ENV for DB_HOST is anything but "db", this string format should be changed from 3306 to 3307 (or whichever port it was changed to in docker) 
+    DB_URL_FORMAT: "jdbc:mysql://%s:3306/DevStory" # If the docker ENV for DB_HOST is anything but "db", this string format should be changed from 3306 to 3307 (or whichever port it was changed to in docker) 
     DB_HOST: "localhost" 
     DB_USER: "root"
     DB_PASS: "mysql2806"
@@ -197,9 +197,9 @@ server:
     LOGIN_ATTEMPT_DURATION: 120         #Period in seconds the login attempt remains registered on the system.
 
     #Ip Configuration
-    HOST: 85.146.29.189                 #WAN IPv4 address
-    LANHOST: 85.146.29.189            #LAN IPv4 address
-    LOCALHOST: 85.146.29.189        #Loopback IPv4 address
+    HOST: localhost                 #WAN IPv4 address
+    LANHOST: localhost            #LAN IPv4 address
+    LOCALHOST: localhost        #Loopback IPv4 address
     GMSERVER: false
 
     #Other configuration
