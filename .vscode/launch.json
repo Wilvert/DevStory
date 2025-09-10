@@ -1,0 +1,14 @@
+{
+    // ...existing code...
+    "configurations": [
+        // ...existing configurations...
+        {
+            "type": "java",
+            "name": "Start Server",
+            "request": "launch",
+            "mainClass": "net.server.Server",
+            "projectName": "Cosmic"
+        }
+        // ...existing configurations...
+    ]
+}

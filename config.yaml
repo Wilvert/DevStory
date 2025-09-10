@@ -198,8 +198,8 @@ server:
 
     #Ip Configuration
     HOST: localhost                 #WAN IPv4 address
-    LANHOST: localhost            #LAN IPv4 address
-    LOCALHOST: localhost        #Loopback IPv4 address
+    LANHOST: 192.168.1.116          #LAN IPv4 address
+    LOCALHOST: 127.0.0.1            #Loopback IPv4 address
     GMSERVER: false
 
     #Other configuration
