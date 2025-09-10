@@ -1,9 +1,9 @@
-﻿# Cosmic
-Cosmic is a server emulator for Global MapleStory (GMS) version 83.
+﻿# DevStory
+DevStory is a server emulator for Global MapleStory (GMS) version 83.
 
 ## Introduction
 
-Cosmic launched on March 2021. It is based on code from a long line of server emulators spanning over a decade - starting with OdinMS (2008) and ending with HeavenMS (2019).
+DevStory launched on March 2021. It is based on code from a long line of server emulators spanning over a decade - starting with OdinMS (2008) and ending with HeavenMS (2019).
 
 This is mainly a Java based project, but there are also a bunch of scripts written in JavaScript.
 
@@ -23,14 +23,14 @@ What we are working towards.
 Explicitly excluded from the scope of the project.
 * __Custom gameplay features__ - existing custom features will be removed over time and new ones are unlikely to be added.
 * __Client development__ - this project is focused on the server. Please go elsewhere for client related questions.
-* __Public server__ - there will not be an official Cosmic server open to the public. Feel free to launch your own server __at your own risk__. No support will be provided.
+* __Public server__ - there will not be an official DevStory server open to the public. Feel free to launch your own server __at your own risk__. No support will be provided.
 
 ## Project setup
 
 ### Contribute
 You may contribute to the project in various ways, mainly through GitHub:
-* Providing improvements to the code through a [Pull Request](https://github.com/P0nk/Cosmic/pulls) from your own fork. 
-* Reporting a bug by creating an [Issue](https://github.com/P0nk/Cosmic/issues).
+* Providing improvements to the code through a [Pull Request](https://github.com/Wilvert/DevStory/pulls) from your own fork. 
+* Reporting a bug by creating an [Issue](https://github.com/Wilvert/DevStory/issues).
 * Providing information to existing issues or reviewing pull requests that others have made.
 * ...and in other ways that I haven't thought of!
 
@@ -69,8 +69,8 @@ You will start by installing the database server and database client. Then you w
    3. Connect to the database: click on your saved session -> "Open"
 4. Create a new database schema:
    1. In the opened session, right-click on the session name in the menu on the left
-   2. "Create new" -> "Database" -> database name should be "cosmic" -> "OK"
-5. Done. The database is now ready. Once the Cosmic server starts, it will create tables and populate some of them with initial data.
+   2. "Create new" -> "Database" -> database name should be "DevStory" -> "OK"
+5. Done. The database is now ready. Once the DevStory server starts, it will create tables and populate some of them with initial data.
 
 ### 2 - Server
 You will start by cloning the repository, then configure the database properties and lastly start the server.
@@ -81,10 +81,10 @@ You will start by cloning the repository, then configure the database properties
 
 #### Steps
 
-1. Clone Cosmic into a new project. In IntelliJ, you would create a new project from version control.
+1. Clone DevStory into a new project. In IntelliJ, you would create a new project from version control.
 2. Open _config.yaml_. Find "DB_PASS" and set it to your database root user password.
 3. Start the server. The main method is located in `net.server.Server`.
-4. If you see "Cosmic is now online" in the console, it means the server is online and ready to serve traffic. Yay!
+4. If you see "DevStory is now online" in the console, it means the server is online and ready to serve traffic. Yay!
 
 Below, I list other ways of running the server which are completely optional.
 
@@ -103,7 +103,7 @@ To run the jar, a ``launch.bat`` file is provided for convenience. Simply double
 Alternatively, run the jar file from the terminal. Just remember to provide the `wz-path` system property pointing to your wz directory.
 
 ### 3 - Client
-The client files are located in a separate repository: https://github.com/P0nk/Cosmic-client
+The client files are located in a separate repository: https://github.com/Wilvert/DevStory-client
 
 Follow the installation guide in the README.
 
